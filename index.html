@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Validation</title>
+  <link rel="stylesheet" href="style3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <form id="passwordForm">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+    <form id="passwordForm">
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" required>
+      </div>
+      <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" class="form-control" id="confirmPassword" required>
+        <small id="passwordHelp" class="form-text text-danger"></small>
+      </div>
+      <button type="submit" id="next1"class="btn btn-primary">Submit</button>
+      <a href="login.html" id="next"class="btn btn-primary">Signup</a>
+    </form>
+  </div>
+
+  <script src="script3.js"></script>
+</body>
+</html>

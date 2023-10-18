@@ -1,0 +1,11 @@
+body {
+    background-color: #f2f2f2;
+}
+
+#taskList {
+    margin-top: 20px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
